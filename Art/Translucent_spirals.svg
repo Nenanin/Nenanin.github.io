@@ -80,7 +80,7 @@ g.prefab path {
   -inkscape-stroke:hairline;
   fill: none;
   fill-opacity: 1;
-  stroke-opacity: 1;
+  stroke-opacity: 0.4;
   stroke: #00349c;
 }
 </style>
