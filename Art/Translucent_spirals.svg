@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<style> stroke-opacity="0"; fill-opacity="0.30"</style>
 <svg
    width="856.93396"
    height="923.51288"
@@ -80,8 +79,8 @@ g.prefab path {
   vector-effect:non-scaling-stroke;
   -inkscape-stroke:hairline;
   fill: none;
-  fill-opacity: 1;
-  stroke-opacity: 1;
+  fill-opacity: 0.4;
+  stroke-opacity: 0.4;
   stroke: #00349c;
 }
 </style>
