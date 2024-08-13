@@ -20,7 +20,7 @@
 <sodipodi:namedview
    pagecolor="#a9a9a9"
    bordercolor="#292929"
-   borderopacity="1"
+   borderopacity="0.1"
    inkscape:showpageshadow="2"
    inkscape:pageopacity="0.0"
    inkscape:pagecheckerboard="0"
@@ -37,7 +37,8 @@
    inkscape:current-layer="SVGRoot" />
 <style
    type="text/css"
-   id="style1">
+   id="style1"
+   fill-opacity"0.5">
 g.prefab path {
   vector-effect:non-scaling-stroke;
   -inkscape-stroke:hairline;
