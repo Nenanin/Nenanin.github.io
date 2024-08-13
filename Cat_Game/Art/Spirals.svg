@@ -42,8 +42,8 @@ g.prefab path {
   vector-effect:non-scaling-stroke;
   -inkscape-stroke:hairline;
   fill: none;
-  fill-opacity: 1;
-  stroke-opacity: 1;
+  fill-opacity: 0.5;
+  stroke-opacity: 0;
   stroke: #00349c;
 }
 </style>
