@@ -3,7 +3,7 @@
    width="559.02191"
    height="538.33929"
    viewBox="0 0 559.02191 538.33929"
-   fill-opacity="0.5%"
+   fill-opacity="0.5% !important"
    version="1.1"
    xml:space="preserve"
    id="SVGRoot"
@@ -43,7 +43,7 @@ g.prefab path {
   vector-effect:non-scaling-stroke;
   -inkscape-stroke:hairline;
   fill: none;
-  fill-opacity: 0.5;
+  fill-opacity: 0.5 !important;
   stroke-opacity: 0;
   stroke: #00349c;
 }
