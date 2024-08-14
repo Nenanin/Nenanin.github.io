@@ -38,12 +38,12 @@
 <style
    type="text/css"
    id="style1"
-   fill-opacity"15 !important">
+   fill-opacity"15 !important";>
 g.prefab path {
   vector-effect:non-scaling-stroke;
   -inkscape-stroke:hairline;
   fill: none;
-  fill-opacity: 0.5;
+  fill-opacity: 15;
   stroke-opacity: 0;
   stroke: #00349c;
 }
