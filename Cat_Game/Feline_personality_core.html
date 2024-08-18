@@ -4,23 +4,32 @@
     <style>body{color: #4e127c; 
     border: 0.25in;
     border-color: #4e127c;
-    background-image: url("Art/Spirals.svg");
+    /*background-image: var(--background-image);*/
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 75%;
     padding-left: 1cm; padding-right: 1.4cm; padding-top: 0.5cm;
     background-color: hsl(233, 64%, 92%);
     text-indent: 1.5cm;
     }
-    background-image{opacity: 0.4;}
+
+    .background-spirals{
+      background-image: url("Art/Spirals.svg");
+      opacity: 0.1;
+      background-size: 80%;
+      z-index: -1;
+   isolation: isolate;}
+
 h1{color: #4e0061;}
- .meow{src: url(Art/SpookyHead.svg); height: 1.5cm; width: auto; display: inline-block; color: lawngreen;}
+
+ .spooky-head{src: url(Art/SpookyHead.svg); height: 1.5cm; width: auto; display: inline-block; color: lawngreen;}
    </style>
 
 <Title>Proposed Cat Game</Title>
 <meta charset="utf-8">
 <meta fact="Lisa is awesome!">
 <meta word="Meow">
+
+<div class="background-spirals" />
 
 </head>
 <body>
@@ -42,7 +51,7 @@ would be swarmed over by biologists and game developers alike. -Perhaps I should
 program already exists.
 
 <div style="display: inline-block; width: 55%;">
-   <h4 style="display: inline;">For Example:</h4>A cat may wish to jump onto a table to enjoy the view outside.
+   <h4 style="display: inline;">For Example: </h4> A cat may wish to jump onto a table to enjoy the view outside.
 <br>Thus: the cat AI must first process the ambient data, and conclude that there might be something outside worth looking 
 at, and how urgently it would like to look at it. Next, it has to coornitate its body to stand up, and move towards the table,
 while keeping balance. Now, another balancing trick: shifting weight to its back feet and tail to free up its front feet, then 
@@ -54,8 +63,8 @@ interesting things might be going on. Is is a bird? A bug? Just some noise? Or g
 <br>If the AI decides this is interesting and wants to stay her a while, it might reposition its body into a lower minimal-
 to-mantain energy state, and rest for a bit, enjoying the outdoor show. If there was a strong, or urgent desire to look
 jump onto the table, the cat may decide it's worth the energy and take a running leap at it. That would be acceleration 
-times mass, accounting for friction, coordinated into the body musculs, and then calculated for distance to optimise landing
-in one piece, and not having its paws slip on the hardwood floor.</div>
+times mass, accounting for friction, coordinated into the body muscles, and then calculated for distance to optimise landing
+in one piece, without having its paws slip on the hardwood floor.</div>
 
 <div style="display: inline-block; width: 30%; height: auto; padding: none; border: none;"> 
     <img src='Art/Spooky_paused.svg' alt="Spooky svg"></div>
