@@ -2,10 +2,12 @@
 <html lang="en" encoding="utf-8">
 <head>
    <style>
-    background-image{
-      position:relative;
 
-      .background-image{
+    body{color: #4e127c; 
+    border: 0.25in;
+    border-color: #4e127c;
+    .background-image{
+      position:relative;
       &::before{
       content: "";
       opacity: 0.1;
@@ -13,14 +15,10 @@
       position: absolute;
       inset: 10%;
       background-image: url('Art/Spirals.svg');
-    background-position: center;
-    z-index: -1;}
+      background-position: center;
+      z-index: -1;
    }
       }
-
-    body{color: #4e127c; 
-    border: 0.25in;
-    border-color: #4e127c;
     padding-left: 1cm; padding-right: 1.4cm; padding-top: 0.5cm;
     background-color: hsl(233, 64%, 92%);
     text-indent: 1.5cm;
@@ -40,12 +38,11 @@ h1{color: #4e0061;}
 </head>
 <body>
 
-<!--<div class="background-spirals" img src="Art/Spirals.svg"/></div>-->
+<div class="background-image">'</div>
 
-<img src="Art/SpookyHead.svg" alt="Meow"></img>
-<div class="meow"><img src='Art/SpookyHead.svg' alt="Meow"></div>
+<img class='meow' src='Art/SpookyHead.svg' alt="Meow"/>
 <h1 style="display: inline;">Overview</h1>
-<div class="meow"><img src='Art/SpookyHead.svg' alt="Meow"></div>
+<div class="meow" img src='Art/SpookyHead.svg' alt="Meow"></div>
 The purpose of this game is to replicate near-perfect feline bahaviors from an AI program. Based on a few genetically-proven 
 behavioaral variables, the AI will interpret additional data about the cats environment, current stimulations, and past
 learning to opperate a feline model in emulation of a real cat.
