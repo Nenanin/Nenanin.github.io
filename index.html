@@ -8,8 +8,21 @@
       h3 {color: green;}
       h4 {color: rebeccapurple; background: chartreuse; size: 14%;}
  body {
-      background-image: url(Cat_Game/Art/Spirals.svg);
-      background-size: 75%;
+      .background-image{
+        position: relative; 
+        &::before{
+        content: ""; 
+        opacity: 10%; 
+        background-image: url(Cat_Game/Art/Spirals.svg);
+        background-size: 75%;
+        background-repeat: no-repeat; 
+        background-position: center;  
+        z-index: -1;    
+       }
+      }
+
+      border-top: 6px;
+      border-color: blueviolet;
       background-color: hsl(233, 64%, 92%);
       padding: 30px;
     }
